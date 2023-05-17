@@ -44,5 +44,5 @@ python main.py train_mode=self_sl data=Adult model=fttrans/mask_token model.trai
 
 If you want to replicate our experiment, use the following command:
 ```bash
-python script/self_sl/run_all.py 41143,44,41145,287,4538,45062,45060,45012,CAHousing,1461,Adult,41166,1597 1 10
+python script/self_sl/run_all.py 41143,44,41145,287,4538,45062,45060,45012,CAHousing,1461,Adult,41166,1597 0.25 10
 ```

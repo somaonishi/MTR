@@ -14,7 +14,7 @@ from data.datasets.tabular_dataframe import TabularDataFrame
 logger = logging.getLogger(__name__)
 
 # Copied from https://github.com/pfnet-research/deep-table.
-# Modified by somaonishi and shoyameguro.
+# Modified by anonymous.
 class TabularDataset(Dataset):
     def __init__(
         self,

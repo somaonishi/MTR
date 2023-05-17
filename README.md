@@ -2,7 +2,7 @@
 The official implementation of the paper "Rethinking Data Augmentation for Tabular Data in Deep Learning".
 In this README, we provide information about the environment we used and instructions on how to run the code to reproduce our experiments.
 
-Feel free to report [issues](https://github.com/somaonishi/MTR/issues).
+Feel free to report [issues]().
 
 ## Environment
 The experiments in our paper were conducted using the following environment:

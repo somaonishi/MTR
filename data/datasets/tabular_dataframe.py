@@ -13,7 +13,7 @@ logger = logging.getLogger(__name__)
 
 
 # Copied from https://github.com/pfnet-research/deep-table.
-# Modified by somaonishi and shoyameguro.
+# Modified by anonymous.
 class TabularDataFrame(object):
     """Base class for datasets"""
 

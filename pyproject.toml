@@ -2,7 +2,7 @@
 name = "mtr"
 version = "1.0.0"
 description = ""
-authors = ["Soma Onishi <somaonishi4@gmail.com>"]
+authors = ["anonymous"]
 readme = "README.md"
 
 [tool.poetry.dependencies]

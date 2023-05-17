@@ -1,0 +1,7 @@
+name: FTTransformerWithMaskToken
+
+trainer: FTTransWithMaskTokenTraniner
+params:
+  p: 0.5
+  mask_ratio: 0.4
+  bias_after_mask: false

@@ -1,0 +1,7 @@
+name: FTTransformer
+
+trainer: FTTransWithSCARFTraniner
+params:
+  p: 0.5
+  da_mode: scarf
+  mask_ratio: 0.2

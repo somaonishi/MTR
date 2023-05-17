@@ -1,0 +1,36 @@
+defaults:
+  - _self_
+  - model: fttrans/wo-da
+
+data: Adult 
+data_dir: datasets
+show_data_detail: False
+
+train_mode: supervised # supervised, self_sl
+
+batch_size: auto # int or auto
+eval_batch_size: 256
+train_size: 1
+
+epochs: 500
+
+val_size: 0.25
+patience: 15
+eval:
+  metric: val/loss
+  less_is_better: true
+
+mixed_fp16: true
+save_model: false
+
+seed: 42
+gpu_id: 0
+
+hydra:
+  job:
+    chdir: True
+  run:
+    dir: outputs/single/${hydra.job.name}/${data}/${now:%Y-%m-%d}/${now:%H-%M-%S}
+  sweep:
+    dir: outputs/multirun/${hydra.job.name}/${data}/${now:%Y-%m-%d}/${now:%H-%M-%S}
+    subdir: ${seed} #${hydra.job.num}

@@ -1,0 +1,4 @@
+name: FTTransformer
+
+trainer: FTTransTraniner
+params: {}

@@ -1,5 +1,8 @@
 # Rethinking Data Augmentation for Tabular Data in Deep Learning (NeurIPS 2023)
-The official implementation of the paper "Rethinking Data Augmentation for Tabular Data in Deep Learning".
+**Under review.**
+
+The official implementation of the paper "Rethinking Data Augmentation for Tabular Data in Deep Learning" ([link](https://arxiv.org/abs/2305.10308)).
+
 In this README, we provide information about the environment we used and instructions on how to run the code to reproduce our experiments.
 
 Feel free to report [issues](https://github.com/somaonishi/MTR/issues).

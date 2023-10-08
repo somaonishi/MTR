@@ -1,4 +1,4 @@
-# Rethinking Data Augmentation for Tabular Data in Deep Learning (NeurIPS 2023)
+# Rethinking Data Augmentation for Tabular Data in Deep Learning
 **Under review.**
 
 The official implementation of the paper "Rethinking Data Augmentation for Tabular Data in Deep Learning" ([link](https://arxiv.org/abs/2305.10308)).
